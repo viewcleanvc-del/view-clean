@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradAbout" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091b2e" />
+      <stop offset="60%" stop-color="#0f3d64" />
+      <stop offset="100%" stop-color="#144d7d" />
+    </linearGradient>
+    <pattern id="gridAbout" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#29a8e2" stroke-width="0.75" stroke-opacity="0.15" />
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGradAbout)" />
+  <rect width="800" height="500" fill="url(#gridAbout)" />
+
+  <!-- Shield and Safety Graphic Blueprint -->
+  <g opacity="0.25" stroke="#38bdf8" stroke-width="1.5" fill="none">
+    <circle cx="400" cy="250" r="160" stroke-dasharray="6,6" />
+    <path d="M 400 120 L 520 170 L 520 310 Q 400 410 400 410 Q 280 310 280 170 Z" />
+  </g>
+
+  <!-- Central Card -->
+  <rect x="150" y="100" width="500" height="300" rx="16" fill="#081e33" fill-opacity="0.88" stroke="#29a8e2" stroke-width="1.5" />
+
+  <g transform="translate(250, 130)">
+    <rect width="300" height="30" rx="15" fill="#144d7d" stroke="#38bdf8" stroke-width="1" />
+    <text x="150" y="20" fill="#38bdf8" font-family="'Cairo', 'Tajawal', sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+      مساحة صورة قسم من نحن والتجهيزات
+    </text>
+  </g>
+
+  <text x="400" y="220" fill="#ffffff" font-family="'Cairo', 'Tajawal', sans-serif" font-size="22" font-weight="800" text-anchor="middle">
+    شركة فيو كلين للصيانة والنظافة
+  </text>
+  <text x="400" y="260" fill="#93c5fd" font-family="'Cairo', 'Tajawal', sans-serif" font-size="14" font-weight="600" text-anchor="middle">
+    الريادة والاحترافية في صيانة ونظافة المنشآت والأبراج
+  </text>
+  <text x="400" y="300" fill="#38bdf8" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">
+    View Clean • About Us Image Placeholder (800 × 600)
+  </text>
+
+  <g transform="translate(200, 335)">
+    <rect width="400" height="40" rx="8" fill="#051321" stroke="#1d4ed8" stroke-width="1" />
+    <text x="200" y="25" fill="#cbd5e1" font-family="'Cairo', 'Tajawal', sans-serif" font-size="12" text-anchor="middle">
+      جاهزة لرفع صورة الفريق الميداني أو المعدات الرسمية
+    </text>
+  </g>
+</svg>
